@@ -846,7 +846,7 @@ nav {
   position: relative; }
 
 .isStuck {
-  background: #444;
+  background: #000;
   z-index: 999;
   border-bottom: 1px solid #333333;
   padding-top: 0; }
@@ -856,7 +856,7 @@ nav {
     margin-top: 20px;
     padding-bottom: 20px; }
   .isStuck nav a {
-    color: #0dd995; }
+    color: #cc6600; }
   .isStuck nav .active > a:hover, .isStuck nav a:hover {
     color: #fff; }
   .isStuck nav .active > a {
@@ -871,8 +871,8 @@ nav {
   height: 42px;
   font-size: 16px;
   line-height: 42px;
-  color: #fff;
-  background: #0dd995;
+  color: #000;
+  background: #cc6600;
   position: fixed;
   right: 198px;
   bottom: 180px;
