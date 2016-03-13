@@ -6,7 +6,7 @@
                       Main Styles
 =========================================================*/
 body {
-  background: #fff;
+  background: #c60;
   color: #4f4f4f;
   font: 400 14px/24px "Roboto", sans-serif;
   -webkit-text-size-adjust: none; }
@@ -15,6 +15,7 @@ img {
   max-width: 100%;
   height: auto;
   width: 100%; }
+
 
 h1, h2, h3, h4, h5, h6 {
   color: #2b2b2b; }
@@ -366,8 +367,8 @@ h6 + p {
   margin-right: auto; }
   .brand_name {
     display: inline-block;
-    background: #0c0c0c;
-    padding: 45px 62px 50px 74px; }
+    background: #000;
+    padding: auto; }
     @media (max-width: 767px) {
       .brand_name {
         padding-left: 20px;
@@ -436,7 +437,7 @@ nav {
 /*==================  News List  ======================*/
 .news-list span {
   display: block;
-  color: #0dd995; }
+  color: #000; }
 .news-list .day {
   font-size: 60px;
   line-height: 60px; }
@@ -558,10 +559,10 @@ nav {
 
 /*==================  Backgrounds  ======================*/
 .bg-secondary {
-  background: #0dd995; }
+  background: #000; }
 
 .bg-secondary2 {
-  background: #46dea4; }
+  background: #111; }
 
 .bg-1 {
   background: #fff; }
@@ -574,7 +575,7 @@ nav {
 
 /*=================== Colors ===========================*/
 .c-1 {
-  color: #0dd995; }
+  color: #cc6600; }
 
 .c-2 {
   color: #fff; }
@@ -919,7 +920,7 @@ nav {
                      HEADER  Section
 =========================================================*/
 header {
-  background: #fff; }
+  background: #000; }
   header.subpage {
     border-bottom: 1px solid #dadada; }
   header .header-wrap {
@@ -935,7 +936,7 @@ header {
     display: inline-block;
     font-size: 18px;
     line-height: 18px;
-    color: #0dd995; }
+    color: #c60; }
     header address:before {
       content: '';
       width: 17px;
@@ -960,7 +961,7 @@ header {
 =========================================================*/
 main {
   display: block;
-  background: #fff; }
+  background: #c60; }
   @media (max-width: 767px) {
     main {
       text-align: center;
@@ -1100,7 +1101,7 @@ main {
                      FOOTER  Styles
 =========================================================*/
 footer {
-  background: #fff; }
+  background: #000; }
   footer .footer-brand .brand_name {
     font-size: 53px;
     padding: 36px 53px 41px 63px; }
@@ -1115,7 +1116,7 @@ footer {
   footer address {
     font-size: 18px;
     line-height: 28px;
-    color: #2b2b2b;
+    color: #fff;
     text-transform: uppercase;
     padding-top: 42px; }
     @media (max-width: 1199px) {
@@ -1154,3 +1155,9 @@ footer {
 
   .well-p {
     padding: 0; } }
+
+.uhslogo {
+  height: auto;
+  width: 280px;
+  margin-bottom: 10px;
+  margin-top: 10px; }
