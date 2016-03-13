@@ -7,7 +7,7 @@
 =========================================================*/
 body {
   background: #c60;
-  color: #4f4f4f;
+  color: #000;
   font: 400 14px/24px "Roboto", sans-serif;
   -webkit-text-size-adjust: none; }
 
@@ -38,9 +38,9 @@ h2 {
   line-height: 60px;
   font-weight: 700; }
   h2.mod1 {
-    font-size: 100px;
+    font-size: 90px;
     line-height: 100px;
-    font-weight: 700; }
+    font-weight: 600; }
   h2.mod2 {
     font-weight: 300; }
   h2.subscribe {
@@ -150,7 +150,7 @@ strong {
   float: left;
   margin-top: -3px; }
   .social-list a:before {
-    color: #0dd995;
+    color: #c60;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     -webkit-transition: 0.3s;
@@ -163,14 +163,14 @@ strong {
 .copyright {
   font-size: 16px;
   line-height: 16px;
-  color: #313131;
+  color: #fff;
   text-transform: uppercase;
   padding-top: 55px;
   padding-left: 155px;
   line-height: 31px;
   float: right; }
   .copyright a {
-    color: #0dd995; }
+    color: #c60; }
     .copyright a:hover {
       color: #2b2b2b; }
   @media (max-width: 1199px) {
@@ -275,10 +275,10 @@ table {
         float: none; } }
 
 * + .nav {
-  margin-left: 190px; }
+  margin-left: 150px;}
 
 nav + address {
-  margin-left: 176px; }
+  margin-left: 125px; }
   @media (min-width: 768px) and (max-width: 979px) {
     nav + address {
       float: right;
@@ -413,9 +413,9 @@ nav {
       top: -4px;
       left: 0;
       font: 800 48px/48px "Roboto", sans-serif;
-      color: #0dd995; }
+      color: #fff; }
     .index-list li h4 {
-      color: #0dd995;
+      color: #fff;
       font-family: "Roboto", sans-serif;
       font-weight: 700; }
     .index-list li h4 + p {
@@ -424,7 +424,7 @@ nav {
     .index-list li h4 + p.mod2 {
       margin-top: 21px; }
     .index-list li p {
-      color: #797979; }
+      color: #fff; }
     .index-list li + li {
       margin-top: 93px; }
   @media (max-width: 479px) {
@@ -564,6 +564,9 @@ nav {
 .bg-secondary2 {
   background: #111; }
 
+  .bg-secondary3 {
+    background-image: image("images/banner.jpg");; }
+
 .bg-1 {
   background: #fff; }
 
@@ -571,7 +574,7 @@ nav {
   background: whitesmoke; }
 
 .bg-3 {
-  background: #f5f5f5; }
+  background: #cc6600; }
 
 /*=================== Colors ===========================*/
 .c-1 {
@@ -604,27 +607,27 @@ nav {
   content: '';
   position: absolute;
   top: -5px;
-  left: 47%;
+  left: 10%;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 0 4.5px 5px 4.5px;
-  border-color: transparent transparent #0dd995 transparent; }
+  border-color: transparent transparent #fff transparent; }
 .sf-menu > li > a {
   font: 300 18px/18px "Roboto", sans-serif;
-  color: #3f3f3f; }
+  color: #c60; }
 .sf-menu > li.sfHover > a, .sf-menu > li > a:hover {
-  color: #0dd995; }
+  color: #fff; }
 .sf-menu > li.active > a {
-  color: #0dd995; }
+  color: #fff; }
 
 .sf-menu ul {
   display: none;
   position: absolute;
   top: 233%;
-  left: -7px;
+  left: -1px;
   width: 88px;
-  padding: 23px 10px 13px;
+  padding: 13px 10px 13px;
   margin-top: 10px;
   background: #0dd995;
   z-index: 2;
@@ -843,8 +846,8 @@ nav {
     font-size: 18px; } }
 /*==================  Stuck menu  ======================*/
 .stuck_container {
-  padding-top: 64px;
-  position: relative; }
+  position: relative;
+  background-image: image("images/banner.jpg");}
 
 .isStuck {
   background: #000;
@@ -947,7 +950,7 @@ header {
     header nav {
       position: absolute;
       bottom: 10px;
-      margin-left: 123px !important; } }
+      margin-left: 100px !important; } }
   @media (max-width: 767px) {
     header {
       text-align: center;
@@ -1003,9 +1006,10 @@ main {
       padding-right: 0; } }
 
 .text-wrap {
-  padding: 40px 10px 43px 41px;
+  padding-top: 5px;
+  height: 241.867px;
   color: #fff;
-  background: #0dd995; }
+  background: #000; }
   .text-wrap a {
     color: #fff; }
   @media (max-width: 767px) {
