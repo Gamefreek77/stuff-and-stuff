@@ -895,7 +895,7 @@ nav {
     text-decoration: none;
     border-color: transparent; }
 
-@media only screen and (max-width: 1399px) {
+@media only screen and (max-width: 1920px) {
   .toTop {
     display: none !important; } }
 /*==================  RD Parallax    ======================*/
@@ -912,9 +912,8 @@ nav {
     will-change: transform; }
   .parallax_image {
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
-	size: auto }
+    -webkit-background-size: auto;
+    background-size: auto; }
   .parallax_pattern {
     background-repeat: repeat; }
   .parallax_cnt {
