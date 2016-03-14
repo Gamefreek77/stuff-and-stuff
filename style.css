@@ -912,8 +912,8 @@ nav {
     will-change: transform; }
   .parallax_image {
     background-repeat: no-repeat;
-    -webkit-background-size: auto;
-    background-size: auto; }
+    -webkit-background-size: cover;
+    background-size: cover; }
   .parallax_pattern {
     background-repeat: repeat; }
   .parallax_cnt {
