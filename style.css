@@ -895,7 +895,7 @@ nav {
     text-decoration: none;
     border-color: transparent; }
 
-@media only screen and (max-width: 1px) {
+@media only screen and (max-width: 1399px) {
   .toTop {
     display: none !important; } }
 /*==================  RD Parallax    ======================*/
