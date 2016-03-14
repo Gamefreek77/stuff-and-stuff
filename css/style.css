@@ -913,7 +913,8 @@ nav {
   .parallax_image {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
-    background-size:auto; }
+    background-size: cover;
+	size: auto }
   .parallax_pattern {
     background-repeat: repeat; }
   .parallax_cnt {
