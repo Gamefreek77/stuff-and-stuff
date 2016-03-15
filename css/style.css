@@ -408,7 +408,7 @@ nav {
     position: relative;
     padding-left: 99px; }
     .index-list li:before {
-      content: counter(li,decimal-leading-zero) ".";
+      content: counter(li) ".";
       position: absolute;
       top: -4px;
       left: 0;
@@ -431,7 +431,7 @@ nav {
     .index-list li {
       padding-left: 0; }
       .index-list li:before {
-        content: counter(li,decimal-leading-zero);
+        content: counter(li);
         position: static; } }
 
 /*==================  News List  ======================*/
