@@ -395,7 +395,6 @@ nav {
 
 /*==================  Index List  ======================*/
 .index-list {
-  counter-reset: li;
   display: inline-block; }
   .index-list:before, .index-list:after {
     display: table;
@@ -404,11 +403,10 @@ nav {
   .index-list:after {
     clear: both; }
   .index-list li {
-    counter-increment: li;
     position: relative;
     padding-left: 99px; }
     .index-list li:before {
-      content: counter(li) ".";
+".";
       position: absolute;
       top: -4px;
       left: 0;
@@ -431,7 +429,7 @@ nav {
     .index-list li {
       padding-left: 0; }
       .index-list li:before {
-        content: counter(li);
+
         position: static; } }
 
 /*==================  News List  ======================*/
