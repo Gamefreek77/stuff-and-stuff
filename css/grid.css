@@ -74,6 +74,10 @@ table {
 .container-fluid .grid_6 {
   width: 50%; }
 
+.container-fluid .grid_6tl {
+    width: 50%;
+    margin: auto;}
+
 .container-fluid .grid_7 {
   width: 58.33333%; }
 
