@@ -156,9 +156,8 @@ table {
   margin-bottom: 10px;}
 .container .grid_6tl {
     width: 570px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;}
+    margin: 0 auto;
+    }
 .container .grid_7 {
   width: 670px; }
 .container .grid_8 {
