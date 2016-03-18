@@ -154,6 +154,11 @@ table {
 .container .grid_6 {
   width: 570px;
   margin-bottom: 10px;}
+.container .grid_6tl {
+    width: 570px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;}
 .container .grid_7 {
   width: 670px; }
 .container .grid_8 {
