@@ -44,11 +44,17 @@ table {
   border-spacing: 0; }
 
 .container, .container-fluid {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+  .containertl, .container-fluidtl {
+    margin-right: auto;
+    margin-left: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
 
 /*===============   Fluid grid    ====================*/
 .container-fluid [class*="grid_"] {
