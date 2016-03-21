@@ -1081,6 +1081,12 @@ main {
 .offset4 {
   padding-top: 69px; }
 
+  .offset4tl {
+    padding-top: 69px;
+    width: 600px;
+    margin: 0 auto;
+    display: block;}
+
 .offset5 {
   padding-top: 30px; }
 
@@ -1163,3 +1169,10 @@ footer {
   width: 280px;
   margin-bottom: 10px;
   margin-top: 10px; }
+
+.Tom {
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: auto;
+}

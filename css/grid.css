@@ -143,6 +143,12 @@ table {
 
 .container .row {
   margin-left: -30px; }
+
+  .container .rowtl {
+    margin-left: 0 auto;
+    width: 600px; }
+
+
 .container [class*="grid_"] {
   float: left;
   min-height: 1px;
