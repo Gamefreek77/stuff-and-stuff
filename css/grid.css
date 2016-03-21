@@ -328,13 +328,11 @@ table {
     width: 420px;
     padding: 0; }
 
-@media (max-width: 767px) {
-.Tom {
-  width: 420px;
-  padding: 0;}
+
 
   .container .row {
     margin-left: 0; }
+
 
   .row + .row,
   [class*="grid_"] + [class*="grid_"] {
@@ -345,6 +343,17 @@ table {
     display: block;
     width: 100%;
     margin-left: 0; } }
+
+@media (max-width: 767px) {
+.Tom{
+  width: 420px;
+  padding: 0;}
+
+.Tom .rowtl {
+  margin-left: 0;}
+
+}
+
 @media (max-width: 479px) {
   body {
     padding: 0; }
