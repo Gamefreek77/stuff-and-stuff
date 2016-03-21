@@ -345,11 +345,11 @@ table {
     margin-left: 0; } }
 
 @media (max-width: 767px) {
-.containertl{
+.container{
   width: 420px;
   padding: 0;}
 
-.containertl .rowtl {
+.container .rowtl {
   margin-left: 0;}
 
 }
