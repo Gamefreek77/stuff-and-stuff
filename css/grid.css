@@ -328,6 +328,11 @@ table {
     width: 420px;
     padding: 0; }
 
+@media (max-width: 767px) {
+.Tom {
+  width: 420px;
+  padding: 0;}
+
   .container .row {
     margin-left: 0; }
 
