@@ -345,7 +345,7 @@ table {
     margin-left: 0; } }
 
 @media (max-width: 767px) {
-.Tom{
+.Tom .containertl{
   width: 420px;
   padding: 0;}
 
